@@ -17,6 +17,13 @@ var add2 = (function(){
 		return counter += 1;
 	}
 })();
+
+var ada = (function() {
+	var a = 0;
+	return function(){
+		return a -= 1;
+	}
+})();
 //End Closures
 
 for(var i=0;i<3;i++){

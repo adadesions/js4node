@@ -20,6 +20,8 @@ var student = {
 
 }
 
+student.listFriends();
+student.name;
 //Object Constructor
 function Student(name, level, friends){
 	this.name = name;
@@ -45,6 +47,27 @@ console.log(s1.name);
 
 //Bracket notation
 console.log(s1['level']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

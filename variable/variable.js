@@ -18,9 +18,34 @@ function fine(){
 	console.log(common);
 }
 
+
 // Function Declaration Overrides Variable Declaration When Hoisted
 var func;
 function func(){
 	console.log("Func");
 }
 func();
+
+
+
+var happy = function(){
+	console.log(process.argv[2])
+};
+
+happy();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
